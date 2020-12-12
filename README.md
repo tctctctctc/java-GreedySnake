@@ -1,4 +1,4 @@
- # java贪吃蛇  
+ # java-贪吃蛇  
 
  ## 项目背景
  偶然看到了麦叔关于贪吃蛇项目的视频，感觉挺有意思的，感兴趣的同学可以去b站搜索“麦叔科普”  
@@ -7,7 +7,7 @@
 
  ## 安装
   ```git
-  命令：git clone https://github.com/tctctctctc/java-snake.git
+  $ git clone https://github.com/tctctctctc/java-snake.git
   ```
 
  ## 使用
@@ -15,12 +15,23 @@
   要求JDK版本8.0及以上
   
  ## 游戏截图
- ![游戏截图](https://raw.githubusercontent.com/tctctctctc/java-snake/main/img/snake.png)
+ ![游戏截图](img/snake.png)
   
- ## 开发者
- 小唐
+## 开发者  
+>	小唐
 
- ## 致谢
- 感谢麦叔提供的游戏素材和思路
+
+## 交流
+
+>    QQ：935706071
+>    邮箱：935706071@qq.com
+
+## 致谢
+
+>   感谢麦叔提供的游戏素材和思路
+   
+## License
+
+>	[Apache-2.0 License](License)
   
   
