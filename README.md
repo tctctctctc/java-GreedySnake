@@ -22,16 +22,13 @@
 
 
 > ## 交流
-
 >    QQ：935706071
 >    邮箱：935706071@qq.com
 
 > ## 致谢
-
 >   感谢麦叔提供的游戏素材和思路
    
 > ## License
-
->	[Apache-2.0 License](License)
+>	[Apache-2.0 License](LiCENSE)
   
   
