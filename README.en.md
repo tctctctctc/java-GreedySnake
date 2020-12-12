@@ -4,7 +4,7 @@
  I occasionally saw a video of Uncle Mai about the snake eating project. I felt very interesting. If you are interested, you can go to www.bilibili.com to search for "麦叔科普"  
  This project is the reconstruction and optimization of Mai Shu's greedy snake project. I redesign the project structure and class, and pay more attention to OOP knowledge  
  The whole project is very simple, only involves the basic knowledge of javase, which suitable for beginners of Java  
- [zh](README.md)
+ [Zh Version](README.md)
 
  ## Install
   ```git
@@ -19,8 +19,7 @@
  ![游戏截图](img/snake.png)
   
  ## Contributing
- @tctctctctc
-
+ Little prince
 
 ## Contact
   QQ：935706071  
