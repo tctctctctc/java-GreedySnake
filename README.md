@@ -15,7 +15,7 @@
   要求JDK版本8.0及以上
   
  ## 游戏截图
- ![游戏截图](https://raw.githubusercontent.com/tctctctctc/java-snake/main/img/snake.png)
+ ![游戏截图](img/snake.png)
   
  ## 开发者
  小唐
