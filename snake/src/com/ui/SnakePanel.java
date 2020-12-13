@@ -7,6 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.IOException;
+import java.io.InputStream;
 
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
@@ -46,6 +48,7 @@ public class SnakePanel extends JPanel implements KeyListener, ActionListener {
 		timer.start();
 		snakeController.initSnake(snake); // 对蛇初始化
 		snakeController.initFood(food);
+		snakeController.initBGM();
 	}
 
 	/**
@@ -120,6 +123,11 @@ public class SnakePanel extends JPanel implements KeyListener, ActionListener {
 				isStart = !isStart;
 				isFirstStart = false;
 			}
+			if(isStart)
+				snakeController.startBGM();
+			else {
+				snakeController.stopBGM();;
+			}
 			repaint();
 		} else if (keyCode == KeyEvent.VK_UP) {
 			if (snake.getOrient() != 2)
@@ -147,13 +155,13 @@ public class SnakePanel extends JPanel implements KeyListener, ActionListener {
 		// TODO Auto-generated method stub
 		if (isStart && !isFailed) {
 
-			snakeController.move(snake, snake.getOrient());
-
 			if (snake.getSnakeX()[0] == food.getFoodX() && snake.getSnakeY()[0] == food.getFoodY()) {
 				snake.setLen(snake.getLen() + 1);
 				snake.setScore(snake.getScore() + 10);
 				snakeController.produceFood(snake, food);
 			}
+			
+			snakeController.move(snake, snake.getOrient());
 		}
 
 		isFailed = snakeController.collisionDetection(snake); // 检测蛇头是否碰撞身体
